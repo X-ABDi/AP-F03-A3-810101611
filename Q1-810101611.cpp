@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <sstream>
 
 #define BLOCK "*"
 #define EMPTY "."
@@ -24,7 +23,6 @@ void split(string line, vector<string> &splited)
 
 Chess_board getInput()
 {
-    cout << "in get inupt" << endl;
     Chess_board chess_board;
     string line;
     vector<string> new_line(CHESS_BOARD_LENGTH);
